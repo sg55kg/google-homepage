@@ -28,6 +28,10 @@ body {
     
 }
 
+#about:hover {
+    text-decoration: underline;
+}
+
 #store {
     margin: 0px 5px;
     padding: 5px;
@@ -35,6 +39,10 @@ body {
     background-color: #202225;
     border:none;
     font: 14px Roboto, arial, sans-serif;
+}
+
+#store:hover {
+    text-decoration: underline;
 }
 
 #gmail {
@@ -45,6 +53,10 @@ body {
     font: 13px Arial, sans-serif;
 }
 
+#gmail:hover{
+    text-decoration: underline;
+}
+
 #images {
     background-color: #202225;
     border: none;
@@ -53,12 +65,21 @@ body {
     font: 13px Arial, sans-serif;
 }
 
+#images:hover {
+    text-decoration: underline;
+}
+
 #google-apps {
     padding: 8px;
     background-color: #202225;
     border: none;
     height: 40px;
     width: 40px;
+}
+
+#google-apps > img:hover {
+    background-color: #5F6367;
+    border: 4px solid #5F6367;
 }
 
 #google-apps > img {
@@ -74,6 +95,11 @@ body {
     height: 40px;
     display:grid;
     margin-left: 15px;
+}
+
+#google-account > img:hover {
+    background-color: #5F6367;
+    border: 4px solid #5F6367;
 }
 
 #google-account > img {
@@ -98,14 +124,24 @@ body {
     padding-bottom: 20px;
 }
 
+.logo > img:hover {
+    cursor: pointer;
+}
+
 .search {
     text-align: center;
-    border: 1px solid #5F6367;
+    border-radius: 10px;
     width: 582px;
     height: 44px;
     margin: auto;
     z-index: 0;
     
+}
+
+.search > img {
+    padding-left: 5px;
+    height: 5px;
+    width: 100%;
 }
 
 
@@ -117,7 +153,8 @@ body {
     position: relative;
     z-index: 1;
     padding-left: 40px;
-    
+    border-radius: 20px;
+    border: 1px solid #5F6367;
 }
 
 #search-bar:hover {
@@ -148,7 +185,11 @@ body {
     font: 14px Roboto, arial, sans-serif;
     padding: 10px 10px;
     float:initial;
-    border-radius: 2px;
+    border-radius: 6px;
+}
+
+.search-buttons > button:hover {
+    background-color: #5F6367;
 }
 
 #search-submit {
@@ -183,6 +224,10 @@ body {
     padding-left: 15px;
 }
 
+#advertising:hover {
+    text-decoration: underline;
+}
+
 #business {
     background-color: #181818;
     border: none;
@@ -191,11 +236,19 @@ body {
     padding-right: 22px;
 }
 
+#business:hover {
+    text-decoration: underline;
+}
+
 #howitworks {
     background-color: #181818;
     border: none;
     color: #999DA2;
     font: 14px Roboto, arial, sans-serif;
+}
+
+#howitworks:hover {
+    text-decoration: underline;
 }
 
 #leaf {
@@ -214,6 +267,10 @@ body {
     font: 14px Roboto, arial, sans-serif;
 }
 
+#carbon:hover {
+    text-decoration: underline;
+}
+
 #privacy {
     background-color: #181818;
     border: none;
@@ -225,6 +282,10 @@ body {
     font: 14px Roboto, arial, sans-serif;
 }
 
+#privacy:hover {
+    text-decoration: underline;
+}
+
 #terms {
     background-color: #181818;
     border: none;
@@ -233,10 +294,18 @@ body {
     font: 14px Roboto, arial, sans-serif;
 }
 
+#terms:hover {
+    text-decoration: underline;
+}
+
 #settings {
     background-color: #181818;
     border: none;
     color: #999DA2;
     padding: 15px;
     font: 14px Roboto, arial, sans-serif;
+}
+
+#settings:hover {
+    text-decoration: underline;
 }
