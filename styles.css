@@ -138,10 +138,11 @@ body {
     
 }
 
-.search > img {
-    padding-left: 5px;
-    height: 5px;
-    width: 100%;
+#srch {
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 25px;
+    width: 25px;
 }
 
 
