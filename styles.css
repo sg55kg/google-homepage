@@ -120,8 +120,10 @@ body {
 
 .logo > img {
     width: 100%;
-    padding-top: 45px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-left: 50px;
+    width: 300px;
+    height: 100px;
 }
 
 .logo > img:hover {
@@ -131,7 +133,7 @@ body {
 .search {
     text-align: center;
     border-radius: 10px;
-    width: 582px;
+    width: 584px;
     height: 44px;
     margin: auto;
     z-index: 0;
@@ -149,7 +151,7 @@ body {
 #search-bar {
     background-color: #202225;
     border: none;
-    width: 535px;
+    width: 550px;
     height: 42px;
     position: relative;
     z-index: 1;
@@ -161,6 +163,7 @@ body {
 #search-bar:hover {
     background-color: #2F3234;
     -webkit-tap-highlight-color: transparent;
+    box-shadow: 2px #181818;
 
 }
 
